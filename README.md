@@ -8,7 +8,7 @@ All generated PDFs are automatically saved to your system Downloads folder.
 
 1. Go to the Releases section and download the zip file and extract it, you will get cnvrt.exe
 2. Create a folder cnvrt and add cnvrt.exe in it
-3. Add this to the path
+3. Add this to the path in environment variables
 - Press Win + R → type: sysdm.cpl
 - Advanced → Environment Variables
 - Under User variables → Path → Edit → New
