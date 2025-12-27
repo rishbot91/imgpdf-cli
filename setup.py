@@ -6,7 +6,7 @@ setup(
     py_modules=["imgpdf"],
     entry_points={
         "console_scripts": [
-            "convert=imgpdf:main"
+            "cnvrt=imgpdf:main"
         ]
     },
 )
