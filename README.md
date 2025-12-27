@@ -4,7 +4,18 @@ A lightweight command-line utility to convert JPG images to PDF files locally
 
 All generated PDFs are automatically saved to your system Downloads folder.
 
-## Installation
+## For Windows Users (No Python Required)
+
+1. Go to the Releases section and download the zip file and extract it, you will get cnvrt.exe
+2. Create a folder cnvrt and add cnvrt.exe in it
+3. Add this to the path
+- Press Win + R → type: sysdm.cpl
+- Advanced → Environment Variables
+- Under User variables → Path → Edit → New
+- C:\cnvrt
+4. Restart all terminals.
+
+## For Developers (Build from Source)
 
 ### Clone the repo
 
@@ -32,7 +43,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Make cnvrt available globally on Windows
+### Make cnvrt available globally on Windows
 
 By default, the cnvrt command works only inside the virtual environment.
 To use it from any folder in CMD or PowerShell, add the venv Scripts folder to Windows PATH.
@@ -42,14 +53,13 @@ To use it from any folder in CMD or PowerShell, add the venv Scripts folder to W
 ```bash
 where cnvrt
 ```
-
-### Example output
+**Example output**
 
 ```bash
 C:\Users\name\imgpdf-cli\.venv\Scripts\cnvrt.exe
 ```
 
-### Add folder to Windows PATH
+**Add folder to Windows PATH**
 
 1. Press Win + R, type:
 
